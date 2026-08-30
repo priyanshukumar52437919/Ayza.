@@ -1,0 +1,22 @@
+{
+  "name": "musicbot",
+  "version": "1.0.0",
+  "description": "An Advanced Music Bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aegis",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "riffy": "^1.0.12",
+    "sharp": "^0.35.3",
+    "spotify-url-info": "^3.2.12"
+  }
+}
