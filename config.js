@@ -42,7 +42,7 @@ const envLavalinkNodes = (() => {
 })();
 
 module.exports = {
-  token: process.env.DISCORD_TOKEN || 'MTU0MTgzMTM5NzAwNDU1MDIwNA.G-0R5A.B40v19CC7Rq3D_YZ8uMPX12zTwYMzAAOUZeytA',
+  token: process.env.DISCORD_TOKEN || '',
   clientId: process.env.CLIENT_ID || '1541831397004550204',
   guildId: process.env.GUILD_ID || '1535279044906586195',
   prefix: process.env.COMMAND_PREFIX || '$',
